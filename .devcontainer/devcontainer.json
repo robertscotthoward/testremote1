@@ -9,7 +9,7 @@
 		// Update 'dockerComposeFile' to use a Docker Compose file instead of a Dockerfile.
 		// "dockerComposeFile": "docker-compose.yml",
 		// "service": "service-name",
-		// "context": "..",
+		"context": ".."
 		// "args": { }
 	},
 
