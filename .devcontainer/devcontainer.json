@@ -19,8 +19,15 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
+	"portsAttributes": {
+		"8010": {
+			"label": "Rob's Test",
+			"onAutoForward": "notify"
+		}
+	},
+
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	"postCreateCommand": "pip3 install -r requirements.txt",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
